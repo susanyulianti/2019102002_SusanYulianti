@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.2019102002_SusanYulianti">
         <activity
+            android:name=".ListView"
+            android:exported="true" />
+        <activity
             android:name=".ViewWeb"
             android:exported="false" />
         <activity
-            android:name=".Segitiga"
+            android:name=".Lingkaran"
             android:exported="false" />
         <activity
             android:name=".Scroll"
